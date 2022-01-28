@@ -126,3 +126,9 @@ li {
   color: #fff;
   white-space: nowrap;
 }
+
+.badge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
