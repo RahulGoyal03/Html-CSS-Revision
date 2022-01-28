@@ -5,8 +5,8 @@
 * {
   margin: 0px;
   padding: 0px;
-  /* font-family: "Dancing Script", cursive;
-  font-family: "Dongle", sans-serif; */
+  font-family: "Baloo Bhai 2", cursive;
+  /* font-family: "Mochiy Pop P One", sans-serif; */
 }
 .background {
   background-image: url("https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png");
@@ -173,6 +173,10 @@ li {
   text-align: left;
   color: #fff;
   text-transform: uppercase;
+}
+.explore {
+  margin-left: 90px;
+  margin-top: 30px;
 }
 .card {
   /* background-image: url("https://i.imgur.com/IkZeAAy_d.jpg?maxwidth=800&shape=thumb&fidelity=high");
