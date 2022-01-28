@@ -5,6 +5,8 @@
 * {
   margin: 0px;
   padding: 0px;
+  /* font-family: "Dancing Script", cursive;
+  font-family: "Dongle", sans-serif; */
 }
 .background {
   background-image: url("https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png");
@@ -12,6 +14,7 @@
   background-size: cover;
   /* background-position: 50%; */
   height: 100vh;
+  /* width: 100%; */
 }
 
 span {
@@ -144,4 +147,74 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.Message {
+  font-size: 24px;
+  font-family: Proxima Nova ExtraBold, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  letter-spacing: 0.6px;
+  color: #aed8ea;
+  text-align: center;
+  margin-top: 12px;
+  min-height: 34px;
+  position: relative;
+}
+.TrendingTags-label {
+  height: 31px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.7;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 1.3px;
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
+}
+.card {
+  /* background-image: url("https://i.imgur.com/IkZeAAy_d.jpg?maxwidth=800&shape=thumb&fidelity=high");
+  height: 130px;
+  width: 232px; */
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  border-radius: 3px;
+  /* background-color: rgba(121, 67, 200, 0.8); */
+  /* background-size: auto 115px;
+  background-repeat: repeat-x;
+  background-position: 100% 0;
+  transition: transform 0.3s;
+  -webkit-transition: transform 0.3s; */
+}
+.card > img {
+  height: 100px;
+}
+.card > div {
+  text-align: center;
+  background-color: rgb(64, 112, 181);
+  /* font-family: Proxima Nova Bold, Helvetica Neue, Helvetica, Arial, sans-serif;
+  padding: 12px;
+  width: 100%;
+  text-align: center;
+  color: #fff; */
+}
+.card-text {
+  margin-top: 4px;
+  font-size: 11px;
+  line-height: 1.46;
+  letter-spacing: 0.4px;
+  color: hsla(0, 0%, 100%, 0.5);
+}
+
+.card-heading {
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.4px;
+  color: #fff;
+  text-transform: capitalize;
+  word-break: break-word;
 }
